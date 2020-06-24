@@ -1,0 +1,14 @@
+---
+expectations:
+  - !ruby 
+    binding: perimetroCuadrado
+    inspection: HasBinding
+  - !ruby 
+    binding: areaCuadrado
+    inspection: HasBinding
+  - !ruby 
+    binding: "*"
+    inspection: DeclaresComputationWithArity1:perimetroCuadrado
+  - !ruby 
+    binding: "*"
+    inspection: DeclaresComputationWithArity1:areaCuadrado
