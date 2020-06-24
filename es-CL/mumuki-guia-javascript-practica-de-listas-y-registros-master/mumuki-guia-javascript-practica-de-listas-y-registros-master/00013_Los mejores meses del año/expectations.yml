@@ -1,0 +1,8 @@
+---
+expectations:
+  - !ruby 
+    binding: mesesAfortunados
+    inspection: Uses:meses
+  - !ruby 
+    binding: mesesAfortunados
+    inspection: Uses:afortunados

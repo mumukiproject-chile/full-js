@@ -1,0 +1,11 @@
+---
+expectations:
+  - !ruby 
+    binding: "*"
+    inspection: Declares:gritar
+  - !ruby 
+    binding: "*"
+    inspection: Not:Declares:convertirEnMayuscula
+  - !ruby 
+    binding: gritar
+    inspection: Uses:convertirEnMayuscula

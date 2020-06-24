@@ -1,0 +1,14 @@
+---
+expectations:
+  - !ruby 
+    binding: "*"
+    inspection: Not:Declares:cuantoCuesta
+  - !ruby 
+    binding: meConviene
+    inspection: Uses:cuantoCuesta
+  - !ruby 
+    binding: "*"
+    inspection: DeclaresFunction:meConviene
+  - !ruby 
+    binding: "*"
+    inspection: Not:UsesIf

@@ -1,0 +1,11 @@
+---
+expectations:
+  - !ruby 
+    binding: "*"
+    inspection: Declares:versosMartinFierro
+  - !ruby 
+    binding: "*"
+    inspection: DeclaresComputationWithArity0:versosMartinFierro
+  - !ruby 
+    binding: versosMartinFierro
+    inspection: Uses:imprimir

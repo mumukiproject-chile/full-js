@@ -1,0 +1,14 @@
+---
+expectations:
+  - !ruby 
+    binding: "*"
+    inspection: DeclaresFunction:perimetroCirculo
+  - !ruby 
+    binding: "*"
+    inspection: DeclaresFunction:areaCirculo
+  - !ruby 
+    binding: "*"
+    inspection: DeclaresComputationWithArity1:perimetroCirculo
+  - !ruby 
+    binding: "*"
+    inspection: DeclaresComputationWithArity1:areaCirculo

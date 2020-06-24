@@ -1,0 +1,14 @@
+---
+expectations:
+  - !ruby 
+    binding: "*"
+    inspection: Declares:trasladar
+  - !ruby 
+    binding: trasladar
+    inspection: Uses:remover
+  - !ruby 
+    binding: trasladar
+    inspection: Uses:agregar
+  - !ruby 
+    binding: "*"
+    inspection: Not:DeclaresVariable

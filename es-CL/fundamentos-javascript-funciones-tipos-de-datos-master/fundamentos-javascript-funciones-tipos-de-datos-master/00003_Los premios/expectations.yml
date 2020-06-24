@@ -1,0 +1,11 @@
+---
+expectations:
+  - !ruby 
+    binding: "*"
+    inspection: Declares:medallaSegunPuesto
+  - !ruby 
+    binding: "*"
+    inspection: DeclaresComputationWithArity1:medallaSegunPuesto
+  - !ruby 
+    binding: medallaSegunPuesto
+    inspection: UsesIf

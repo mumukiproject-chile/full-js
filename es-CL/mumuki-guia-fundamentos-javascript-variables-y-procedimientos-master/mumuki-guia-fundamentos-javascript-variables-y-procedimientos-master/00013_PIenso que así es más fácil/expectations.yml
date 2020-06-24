@@ -1,0 +1,17 @@
+---
+expectations:
+  - !ruby 
+    binding: "*"
+    inspection: DeclaresFunction:areaCirculo
+  - !ruby 
+    binding: "*"
+    inspection: DeclaresFunction:perimetroCirculo
+  - !ruby 
+    binding: areaCirculo
+    inspection: Uses:pi
+  - !ruby 
+    binding: perimetroCirculo
+    inspection: Uses:pi
+  - !ruby 
+    binding: "*"
+    inspection: Except:HasTooShortIdentifiers

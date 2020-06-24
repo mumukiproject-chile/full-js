@@ -1,0 +1,8 @@
+---
+expectations:
+  - !ruby 
+    binding: "*"
+    inspection: DeclaresComputationWithArity2:longitudNombreCompleto
+  - !ruby 
+    binding: "*"
+    inspection: Uses:longitud

@@ -1,0 +1,8 @@
+---
+expectations:
+  - !ruby 
+    binding: "*"
+    inspection: Declares:elefantesEquilibristas
+  - !ruby 
+    binding: "*"
+    inspection: Not:Uses:imprimir

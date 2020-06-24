@@ -1,0 +1,8 @@
+---
+expectations:
+  - !ruby 
+    binding: gananciaPromedio
+    inspection: Uses:gananciaTotal
+  - !ruby 
+    binding: gananciaPromedio
+    inspection: Uses:longitud

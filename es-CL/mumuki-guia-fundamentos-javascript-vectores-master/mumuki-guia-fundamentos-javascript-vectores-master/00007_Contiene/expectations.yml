@@ -1,0 +1,11 @@
+---
+expectations:
+  - !ruby 
+    binding: contiene
+    inspection: Uses:posicion
+  - !ruby 
+    binding: "*"
+    inspection: Declares:contiene
+  - !ruby 
+    binding: "*"
+    inspection: DeclaresComputationWithArity2:contiene

@@ -1,0 +1,4 @@
+var personas = [
+    'mara',
+    'julian'
+];

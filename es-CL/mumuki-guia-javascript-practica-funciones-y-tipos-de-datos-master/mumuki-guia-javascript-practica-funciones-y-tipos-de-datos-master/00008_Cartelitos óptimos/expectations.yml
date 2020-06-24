@@ -1,0 +1,14 @@
+---
+expectations:
+  - !ruby 
+    binding: escribirCartelitoOptimo
+    inspection: HasBinding
+  - !ruby 
+    binding: escribirCartelitoOptimo
+    inspection: Uses:escribirCartelito
+  - !ruby 
+    binding: Intransitive:escribirCartelitoOptimo
+    inspection: Not:UsesIf
+  - !ruby 
+    binding: "*"
+    inspection: Not:Declares:escribirCartelito
