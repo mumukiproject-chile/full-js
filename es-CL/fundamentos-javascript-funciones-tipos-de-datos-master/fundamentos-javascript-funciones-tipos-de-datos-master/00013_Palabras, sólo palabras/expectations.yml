@@ -1,0 +1,8 @@
+---
+expectations:
+  - !ruby 
+    binding: "*"
+    inspection: Except:DoesTypeTest
+  - !ruby 
+    binding: "*"
+    inspection: Declares:esFinDeSemana
