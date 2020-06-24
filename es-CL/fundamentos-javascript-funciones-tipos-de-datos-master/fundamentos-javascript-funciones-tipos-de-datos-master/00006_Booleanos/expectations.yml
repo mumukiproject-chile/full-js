@@ -1,0 +1,17 @@
+---
+expectations:
+  - !ruby 
+    binding: "*"
+    inspection: Except:HasRedundantIf
+  - !ruby 
+    binding: "*"
+    inspection: Declares:estaEntre
+  - !ruby 
+    binding: "*"
+    inspection: DeclaresComputationWithArity3:estaEntre
+  - !ruby 
+    binding: "*"
+    inspection: Declares:estaFueraDeRango
+  - !ruby 
+    binding: "*"
+    inspection: DeclaresComputationWithArity3:estaFueraDeRango
