@@ -1,0 +1,5 @@
+---
+expectations:
+  - !ruby 
+    binding: minimaGananciaPositiva
+    inspection: Uses:minimo
