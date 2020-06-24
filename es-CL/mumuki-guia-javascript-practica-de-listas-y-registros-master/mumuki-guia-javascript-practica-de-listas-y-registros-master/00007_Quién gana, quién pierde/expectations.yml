@@ -1,0 +1,8 @@
+---
+expectations:
+  - !ruby 
+    binding: promedioGananciasPositivas
+    inspection: Uses:cantidadDeBalancesPositivos
+  - !ruby 
+    binding: promedioGananciasPositivas
+    inspection: Uses:gananciaPositiva
