@@ -1,0 +1,8 @@
+---
+expectations:
+  - !ruby 
+    binding: maximaGanancia
+    inspection: Uses:maximo
+  - !ruby 
+    binding: maximaGanancia
+    inspection: Not:UsesForeach
