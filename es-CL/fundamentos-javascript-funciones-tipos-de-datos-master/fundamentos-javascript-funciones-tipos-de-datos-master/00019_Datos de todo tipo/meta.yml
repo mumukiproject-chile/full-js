@@ -1,0 +1,36 @@
+---
+locale: es
+tags: [ ]
+layout: input_bottom
+editor: multiple_choice
+type: problem
+extra_visible: false
+language: text
+teacher_info: ''
+manual_evaluation: false
+choices:
+  - !ruby 
+    value: "`4 + 4` vale 8"
+    checked: true
+  - !ruby 
+    value: '`"4" + "4"` vale `"44"`'
+    checked: true
+  - !ruby 
+    value: '`4 + 4` vale `"44"`'
+    checked: false
+  - !ruby 
+    value: '`"on" + "ce"` vale `"once"`'
+    checked: true
+  - !ruby 
+    value: "`true && false` vale `false`"
+    checked: true
+  - !ruby 
+    value: "`true && false` vale `0`"
+    checked: false
+  - !ruby 
+    value: "`5 >= 6` vale `false`"
+    checked: true
+  - !ruby 
+    value: "`! true` vale `false`"
+    checked: true
+name: Datos de todo tipo
