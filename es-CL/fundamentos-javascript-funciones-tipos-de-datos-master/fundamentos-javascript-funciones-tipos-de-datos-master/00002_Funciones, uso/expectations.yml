@@ -1,0 +1,17 @@
+---
+expectations:
+  - !ruby 
+    binding: anteriorDelTriple
+    inspection: Uses:triple
+  - !ruby 
+    binding: anteriorDelTriple
+    inspection: Uses:anterior
+  - !ruby 
+    binding: "*"
+    inspection: Declares:triple
+  - !ruby 
+    binding: "*"
+    inspection: Declares:anterior
+  - !ruby 
+    binding: "*"
+    inspection: Declares:anteriorDelTriple
