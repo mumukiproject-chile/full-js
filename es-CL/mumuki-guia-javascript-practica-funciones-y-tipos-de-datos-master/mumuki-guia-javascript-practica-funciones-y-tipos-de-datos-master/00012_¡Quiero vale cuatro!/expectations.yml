@@ -1,0 +1,8 @@
+---
+expectations:
+  - !ruby 
+    binding: valorCantoTruco
+    inspection: HasBinding
+  - !ruby 
+    binding: "*"
+    inspection: Except:DoesTypeTest
