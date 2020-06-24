@@ -1,0 +1,8 @@
+---
+expectations:
+  - !ruby 
+    binding: "*"
+    inspection: Declares:torreAzadi
+  - !ruby 
+    binding: "*"
+    inspection: Declares:monumentoNacionalALaBandera
