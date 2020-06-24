@@ -1,0 +1,11 @@
+---
+expectations:
+  - !ruby 
+    binding: "*"
+    inspection: DeclaresComputationWithArity2:agregarAPostresRapidos
+  - !ruby 
+    binding: "*"
+    inspection: Not:SourceContains:return
+  - !ruby 
+    binding: "*"
+    inspection: Not:Uses:remover
