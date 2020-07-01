@@ -4,7 +4,7 @@ rules:
     when: !ruby
       these_expectations_failed:
         - "* Not:SourceRepeats:return"
-    then: en este ejercicio tenés que evaluar una sola condición (si _le gusta leer_) y devolver su resultado, por lo que con un único `return` alcanza
+    then: en este ejercicio tienes que evaluar una sola condición (si _le gusta leer_) y devolver su resultado, por lo que con un único `return` alcanza
   - !ruby 
     when: !ruby
       these_tests_failed:
