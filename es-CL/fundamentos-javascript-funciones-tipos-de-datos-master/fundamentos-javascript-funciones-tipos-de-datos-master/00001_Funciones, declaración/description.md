@@ -8,7 +8,7 @@ function doble(numero) {
 }
 ```
 
-Diferente, pero no tanto. Si la comparás con su equivalente Gobstones...
+Diferente, pero no tanto. Si la comparas con su equivalente en Gobstones...
 
 ```gobstones
 function doble(numero) {
@@ -18,5 +18,5 @@ function doble(numero) {
 
 ...notarás que los paréntesis en el `return` no son necesarios, y que la última línea la terminamos con `;`.
 
-> Veamos si se va entendiendo: escribí ahora una función JavaScript `mitad`, que tome un número y devuelva su mitad. Tené en cuenta que el operador de división en JavaScript es `/`.
+> Veamos si se va entendiendo: escribe ahora una función JavaScript `mitad` que tome un número y devuelva su mitad. Ten en cuenta que el operador de división en JavaScript es `/`.
 
