@@ -9,4 +9,4 @@ rules:
     when: !ruby
       these_tests_failed:
         - estaFueraDeRango devuelve siempre algo
-    then: recordá usar `return` para devolver la expresión en `estaFueraDeRango`
+    then: recuerda usar `return` para devolver la expresión en `estaFueraDeRango`
