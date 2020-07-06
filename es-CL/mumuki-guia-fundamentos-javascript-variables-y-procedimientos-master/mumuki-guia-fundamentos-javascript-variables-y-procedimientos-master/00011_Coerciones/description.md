@@ -1,4 +1,4 @@
-Volvamos un momento al código anterior. ¿Notás algo extraño en esta expresión?
+Volvamos un momento al código anterior. ¿Notas algo extraño en esta expresión?
 
 ```javascript
 "La primera tirada dio " + primeraTirada
@@ -8,7 +8,7 @@ Utilizamos el operador `+` de una forma diferente, operando un string y un núme
 
 * si operamos dos números con `+`, se suman
 * si operamos dos strings con `+`, se concatenan
-* si operamos un string y un número `+`, se _convierte implícitamente_ el número a string, y luego se concatenan, al igual que antes
+* si operamos un string y un número con `+`, se _convierte implícitamente_ el número a string, y luego se concatenan, al igual que antes
 
 En JavaScript, estas conversiones implícitas, también llamadas _coerciones_, ocurren mucho.
 
