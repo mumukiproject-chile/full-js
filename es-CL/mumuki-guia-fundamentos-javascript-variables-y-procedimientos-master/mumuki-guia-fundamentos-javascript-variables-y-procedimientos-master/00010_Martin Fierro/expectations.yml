@@ -2,10 +2,10 @@
 expectations:
   - !ruby 
     binding: "*"
-    inspection: Declares:versosMartinFierro
+    inspection: Declares:versosTierraChilena
   - !ruby 
     binding: "*"
-    inspection: DeclaresComputationWithArity0:versosMartinFierro
+    inspection: DeclaresComputationWithArity0:versosTierraChilena
   - !ruby 
-    binding: versosMartinFierro
+    binding: versosTierraChilena
     inspection: Uses:imprimir
