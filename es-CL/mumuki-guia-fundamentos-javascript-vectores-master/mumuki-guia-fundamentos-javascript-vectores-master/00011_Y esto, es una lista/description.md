@@ -4,7 +4,7 @@ Lo que acabamos de ver es cómo modelar fácilmente conjuntos de cosas. Mediante
 
 Y no sólo eso, sino que además, el orden es importante. Por ejemplo, no es lo mismo `["hola", "mundo"]` que `["mundo", "hola"]`: ambos tienen los mismos elementos, pero en posiciones diferentes.
 
-> Probá en la consola las siguientes consultas: 
+> Prueba en la consola las siguientes consultas: 
 > 
 > * `listasIguales(["hola", "mundo"], ["mundo", "hola"])`
 > * `listasIguales(["hola", "mundo"], ["hola", "mundo"])`
@@ -15,4 +15,4 @@ Y no sólo eso, sino que además, el orden es importante. Por ejemplo, no es lo 
 > * `["mara", "julian"] === personas`
 > * `personas === personas`
 
-> ¿Qué conclusiones podés sacar? :thought_balloon:
+> ¿Qué conclusiones puedes sacar? :thought_balloon:
