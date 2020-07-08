@@ -4,6 +4,6 @@ var seriesFavoritasDeAna = [
     'House of Cards'
 ];
 var seriesFavoritasDeHector = [
-    'En Terapia',
-    'Recordando el Show de Alejandro Molina'
+    'Los 80',
+    'Los archivos del cardenal'
 ];
