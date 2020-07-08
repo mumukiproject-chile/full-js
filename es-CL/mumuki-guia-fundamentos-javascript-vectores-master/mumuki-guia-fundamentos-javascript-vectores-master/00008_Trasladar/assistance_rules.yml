@@ -4,4 +4,4 @@ rules:
     when: !ruby
       these_expectations_failed:
         - "* Not:DeclaresVariable"
-    then: no es necesario que declares ninguna variable, sólo definí `trasladar`
+    then: no es necesario que declares ninguna variable, sólo define `trasladar`
