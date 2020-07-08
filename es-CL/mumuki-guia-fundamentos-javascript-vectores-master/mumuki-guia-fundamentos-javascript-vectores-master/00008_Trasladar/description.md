@@ -1,6 +1,6 @@
-Bueno, ya hablamos bastante; ¡es hora de la acción :movie_camera:!
+Bueno, ya hablamos bastante; ¡es hora de actuar :movie_camera:!
 
-> Declará un procedimiento `trasladar`, que tome dos listas, saque el último elemento de la primera y lo agregue a la segunda. 
+> Declara un procedimiento `trasladar` que tome dos listas, saque el último elemento de la primera y lo agregue a la segunda. 
 > 
 > Ejemplo: 
 > 
