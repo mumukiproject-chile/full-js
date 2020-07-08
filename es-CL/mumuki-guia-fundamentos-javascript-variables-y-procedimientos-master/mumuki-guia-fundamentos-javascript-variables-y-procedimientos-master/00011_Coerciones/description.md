@@ -14,7 +14,7 @@ En JavaScript, estas conversiones implícitas, también llamadas _coerciones_, o
 
 _¡Quizás incluso [más de lo que nos gustaría](https://archive.org/details/wat_destroyallsoftware)!_ :sweat:
 
-> Veamos si queda claro, escribí una función `elefantesEquilibristas`, que tome un número de elefantes y **devuelva** una rima de una conocida canción:
+> Veamos si queda claro: escribe una función `elefantesEquilibristas` que tome un número de elefantes y **devuelva** una rima de una conocida canción:
 > 
 > ```javascript
 ム elefantesEquilibristas(3)
