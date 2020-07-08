@@ -8,4 +8,4 @@ Y no sólo eso, sino que además pueden contener cualquier cantidad de elementos
 let unaListaVacia = []
 ```
 
-> Probá escribir en la consola `unaListaVacia`
+> Prueba a escribir en la consola `unaListaVacia`
