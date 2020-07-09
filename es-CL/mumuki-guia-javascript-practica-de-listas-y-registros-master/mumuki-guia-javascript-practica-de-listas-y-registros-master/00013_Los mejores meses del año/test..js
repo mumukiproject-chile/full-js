@@ -58,19 +58,19 @@ describe('', function () {
         assert.deepEqual(afortunados([
             {
                 mes: 'enero',
-                ganancia: 1000
+                ganancia: 100
             },
             {
                 mes: 'febrero',
-                ganancia: 2000
+                ganancia: 200
             },
             {
                 mes: 'marzo',
-                ganancia: 2500
+                ganancia: 250
             },
             {
                 mes: 'abril',
-                ganancia: 1001
+                ganancia: 100.1
             },
             {
                 mes: 'mayo',
@@ -83,15 +83,15 @@ describe('', function () {
         ]), [
             {
                 mes: 'febrero',
-                ganancia: 2000
+                ganancia: 200
             },
             {
                 mes: 'marzo',
-                ganancia: 2500
+                ganancia: 250
             },
             {
                 mes: 'abril',
-                ganancia: 1001
+                ganancia: 100.1
             }
         ]);
     });
@@ -99,7 +99,7 @@ describe('', function () {
         assert.deepEqual(afortunados([
             {
                 mes: 'enero',
-                ganancia: 1000
+                ganancia: 100
             },
             {
                 mes: 'febrero',
@@ -107,7 +107,7 @@ describe('', function () {
             },
             {
                 mes: 'marzo',
-                ganancia: 200
+                ganancia: 20
             },
             {
                 mes: 'abril',
@@ -119,7 +119,7 @@ describe('', function () {
         assert.deepEqual(mesesAfortunados([
             {
                 mes: 'enero',
-                ganancia: 1001
+                ganancia: 100.1
             },
             {
                 mes: 'febrero',
@@ -127,11 +127,11 @@ describe('', function () {
             },
             {
                 mes: 'marzo',
-                ganancia: 2300
+                ganancia: 230
             },
             {
                 mes: 'abril',
-                ganancia: 800
+                ganancia: 80
             }
         ]), [
             'enero',
