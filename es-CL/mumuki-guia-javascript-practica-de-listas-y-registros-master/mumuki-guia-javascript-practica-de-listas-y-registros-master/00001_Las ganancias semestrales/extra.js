@@ -1,7 +1,7 @@
 let balancesUltimoSemestre = [
     {
         mes: 'julio',
-        ganancia: 50
+        ganancia: 5
     },
     {
         mes: 'agosto',
@@ -9,15 +9,15 @@ let balancesUltimoSemestre = [
     },
     {
         mes: 'septiembre',
-        ganancia: 1000
+        ganancia: 100
     },
     {
         mes: 'octubre',
-        ganancia: 300
+        ganancia: 30
     },
     {
         mes: 'noviembre',
-        ganancia: 200
+        ganancia: 20
     },
     {
         mes: 'diciembre',
@@ -27,15 +27,15 @@ let balancesUltimoSemestre = [
 let balancesPrimerTrimestre = [
     {
         mes: 'enero',
-        ganancia: 80
+        ganancia: 8
     },
     {
         mes: 'febrero',
-        ganancia: 453
+        ganancia: 45.3
     },
     {
         mes: 'marzo',
-        ganancia: 1000
+        ganancia: 100
     }
 ];
 function gananciaSemestre(balances) {
