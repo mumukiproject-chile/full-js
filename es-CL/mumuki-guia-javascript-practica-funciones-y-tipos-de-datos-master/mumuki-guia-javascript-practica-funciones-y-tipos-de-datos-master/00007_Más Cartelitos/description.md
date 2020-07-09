@@ -3,9 +3,9 @@ Ah, ¡pero no tan rápido! Algunas veces en nuestro cartelito :name_badge: sólo
 1. el título;
 2. el nombre;
 3. el apellido;
-4. :new: un booleano que nos indique si queremos un cartelito corto con sólo título y apellido, o uno largo, como hasta ahora.
+4. :new: un booleano que nos indique si queremos un cartelito corto, sólo con título y apellido, o uno largo, como hasta ahora.
 
-> Modificá la función `escribirCartelito`, de forma que se comporte como se describe arriba. Ejemplo: 
+> Modifica la función `escribirCartelito`, de forma que se comporte como se describe arriba. Ejemplo: 
 > 
 > ```javascript
 // cartelito corto
