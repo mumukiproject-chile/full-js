@@ -12,7 +12,7 @@ function gananciaTotal(balancesDeUnPeriodo) {
 
 Como ves, el `for...of` nos permite visitar y hacer algo con cada elemento de una lista; en este caso, estaremos visitando cada `balance` de `balancesDeUnPeriodo`.
 
-> ¿Aún no te convenciste? Nuevamente, probá las siguientes expresiones en la consola:
+> ¿Aún no te convenciste? Nuevamente, prueba las siguientes expresiones en la consola:
 > 
 > `javascript
   ム gananciaTotal([])
