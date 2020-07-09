@@ -1,7 +1,7 @@
 describe('', function () {
     it('endulzarMenu le agrega azúcar al postre', function () {
         let menu = {
-            platoPrincipal: 'bife de lomo',
+            platoPrincipal: 'lomo vetado',
             ensalada: [
                 'papa',
                 'zanahoria',
@@ -21,14 +21,14 @@ describe('', function () {
     });
     it('endulzarMenu le agrega azúcar al postre', function () {
         let menu = {
-            platoPrincipal: 'milanesa',
+            platoPrincipal: 'pechuga',
             ensalada: [
                 'lechuga',
                 'cebolla'
             ],
             postre: {
                 ingredientes: [
-                    'dulce de leche',
+                    'manjar',
                     'vainilla',
                     'azúcar'
                 ],
