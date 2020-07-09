@@ -5,14 +5,14 @@ Vamos a conocer una nueva función, `maximo`, que nos permite conocer cuál es e
 776
 ```
 
-> Usando esta nueva función, definí la función `maximaGanancia` que nos diga cuál es la ganancia más alta entre los balances de un período de tiempo.
+> Usando esta nueva función, define la función `maximaGanancia` que nos diga cuál es la ganancia más alta entre los balances de un período de tiempo.
 > 
 > ```javascript
 ム maximaGanancia([
-      { mes: "enero", ganancia: 87 }, 
-      { mes: "febrero", ganancia: 12 }, 
-      { mes: "marzo", ganancia: 8}
+      { mes: "enero", ganancia: 8.700 }, 
+      { mes: "febrero", ganancia: 1.200 }, 
+      { mes: "marzo", ganancia: 800}
   ])
-87
+8.700
 ```
 
